@@ -101,7 +101,6 @@ body {
     src: url(/Resources/GlacialIndifference-Regular.woff);
     padding: 2em;
     height: 50px;
-    background-color: aqua;
 }
 
 .footer-list {
@@ -122,14 +121,12 @@ body {
 .copyright {
     font-family: 'Glacial Indifference', sans-serif;
     src: url(/Resources/GlacialIndifference-Regular.woff);
-    background-color: aqua;
 }
 h3 {
     font-family: 'Glacial Indifference', sans-serif;
     font-size: 16px;
     font-weight: lighter;
     text-decoration: underline;
-    background-color: aqua;
 }
 #rectangle {
     width: 100%;
