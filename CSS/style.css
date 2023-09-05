@@ -1,0 +1,151 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+.inline-block logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+ul {
+    display: flex;
+    gap: 48px;
+    position: absolute;
+    right: 70px;
+    top: 50px;
+}
+
+.special-style {
+    color: #6F957C;
+    font-weight: bold;
+    text-decoration: underline;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+h1 {
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-left: 70px;
+    padding-left: 125px;
+}
+
+.profile {
+    width: 378px;
+    height: 441px;
+    padding: 1px;
+    flex-shrink: 0;
+    border-radius: 97px;
+}
+
+.button {
+    display: flex;
+    width: 378px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--Rosy-Pink, #F6CBC2);
+    background: var(--Rosy-Pink, #F6CBC2);
+}
+
+@font-face {
+    font-family: 'Glacial Indifference', sans-serif;
+    src: url(/Resources/GlacialIndifference-Regular.woff);
+}
+.column-pic {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-start: 1;
+    grid-template-rows: 0fr;
+    grid-gap: 40px;
+    padding-left: 125px;
+}
+
+.column-text {
+    display: grid;
+    width: 700px;
+    grid-template-columns: 1fr;
+    grid-column-start: 2;
+    grid-template-rows: 0fr;
+    grid-gap: 1px;
+    padding-left: 100px;
+    font-family: 'Glacial Indifference', sans-serif;
+    src: url(/Resources/GlacialIndifference-Regular.woff);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+body {
+    margin-bottom: 150px;
+}
+.footer-navigation {
+    font-family: 'Glacial Indifference', sans-serif;
+    src: url(/Resources/GlacialIndifference-Regular.woff);
+    margin-top: 8em;
+    padding: 2em;
+    position: absolute;
+    display: flex;
+    align-items: left;
+    justify-content: center; 
+    width: 100%;
+    height: 50px;
+    background: #DAE3EB;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    gap: 48px;
+    justify-content: left;
+    left:80px;
+    margin-top: -4px;
+}
+.footer-item {
+    color: #6F957C;
+    font-weight: bold;
+    text-decoration: underline;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.copyright {
+    font-family: 'Glacial Indifference', sans-serif;
+    src: url(/Resources/GlacialIndifference-Regular.woff);
+    display: flex;
+    position: absolute; 
+    justify-content: center;
+    bottom: -338px;
+    width: 100%; 
+}
+h3 {
+    display: flex;
+    position: absolute;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    justify-content: right;
+    bottom: -338px;
+    width: 100%;
+    left: -120px;
+    text-decoration: underline;
+}
+#rectangle {
+    width: 1487px;
+    height: 12.205px;
+    background: linear-gradient(180deg, #C0D2E1 -64.06%, #C0D2E1 -34.9%, rgba(192, 210, 225, 0.00) 27.08%, rgba(192, 210, 225, 0.00) 32.55%, #C0D2E1 77.21%);
+    position: absolute;
+    bottom: -319px; 
+}
+
