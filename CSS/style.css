@@ -4,17 +4,16 @@
     font-family: 'Glacial Indifference', sans-serif;
 }
 
-.inline-block logo {
+.inline-block .logo {
     position: absolute;
     top: 0;
     left: 0;
 }
-
-nav {
+.header {
     width: 73%;
     padding: 1%;
 }
-ul {
+.topnav {
     display: flex;
     gap: 48px;
     position: absolute;
@@ -87,21 +86,22 @@ h1 {
     line-height: normal;
     letter-spacing: 0.5px;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #DAE3EB;
+    align-items: center;
+}
 body {
     margin-bottom: 150px;
 }
 .footer-navigation {
     font-family: 'Glacial Indifference', sans-serif;
     src: url(/Resources/GlacialIndifference-Regular.woff);
-    margin-top: 8em;
     padding: 2em;
-    position: absolute;
-    display: flex;
-    align-items: left;
-    justify-content: center; 
-    width: 100%;
     height: 50px;
-    background: #DAE3EB;
+    background-color: aqua;
 }
 
 .footer-list {
@@ -110,7 +110,6 @@ body {
     gap: 48px;
     justify-content: left;
     left:80px;
-    margin-top: -4px;
 }
 .footer-item {
     color: #6F957C;
@@ -123,29 +122,18 @@ body {
 .copyright {
     font-family: 'Glacial Indifference', sans-serif;
     src: url(/Resources/GlacialIndifference-Regular.woff);
-    display: flex;
-    position: absolute; 
-    justify-content: center;
-    bottom: -338px;
-    width: 100%; 
+    background-color: aqua;
 }
 h3 {
-    display: flex;
-    position: absolute;
     font-family: 'Glacial Indifference', sans-serif;
     font-size: 16px;
     font-weight: lighter;
-    justify-content: right;
-    bottom: -338px;
-    width: 100%;
-    left: -120px;
     text-decoration: underline;
+    background-color: aqua;
 }
 #rectangle {
-    width: 1487px;
+    width: 100%;
     height: 12.205px;
     background: linear-gradient(180deg, #C0D2E1 -64.06%, #C0D2E1 -34.9%, rgba(192, 210, 225, 0.00) 27.08%, rgba(192, 210, 225, 0.00) 32.55%, #C0D2E1 77.21%);
-    position: absolute;
-    bottom: -319px; 
 }
 
