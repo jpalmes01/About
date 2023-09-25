@@ -2,54 +2,79 @@
 <html>
 <head>
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Me</title>
 </head>
 <body>
-    <header class="Navigation">
-        <div class="inline-block logo">
-            <img src="Images/JP Logo.png" alt="logo" width="200px" height="200px">
-        </div>
-        <nav class="inline-block header">
-            <ul class="topnav">
-                <li class="special-style">About</li>
-                <li class="inline-block">Skills</li>
-                <li class="inline-block">Work</li>
-                <li class="inline-block">Contact</li>
-            </ul>
-        </nav>
+    <header>
+        <div class="containerGrid">
+            <div class="container">
+                <a href="https://jpalmes01.github.io/UX_UI_HW_19/">
+                <div class="inline-block logo">
+                    <img src="Images/JP Logo.png" alt="logo" width="200px" height="200px">
+                </div>
+                </a>
+                <nav class="inline-block header">
+                    <ul class="topnav">
+                        <li class="special-style">
+                            <a href="https://jpalmes01.github.io/About/">About</a>
+                        </li>
+                        <li class="inline-block">
+                            <a href="https://jpalmes01.github.io/Portfolio/">Portfolio</a>
+                        </li>
+                        <li class="inline-block">Resume</a></li>
+                        <li class="inline-block">Contact</li>
+                    </ul>
+                </nav>
+            </div>
     </header>
-    <h1>About Me</h1>
     <section id="heroGrid">
+        <h1>About Me</h1>
         <div class="container" style="display: grid; grid-template-columns: 1fr 2fr;">
             <div class="column-pic">
                 <img src="Images/Avatar.png" alt="Profile" width="378" height="400">
                 <button type="button" class="button">Download Resume</button>
             </div>
             <div class="column-text">
-                <p width="608">
+                <p>
                     Collaboration lies at the heart of my process. I firmly believe that the best designs emerge from a fusion of diverse perspectives. I value open communication and the exchange of ideas with the goal of creating meaningful and impactful experiences for everyone.
                 </p>
-                <p width="608">
+                <p>
                     When I'm not immersed in the world of design, you'll often discover me channeling my creativity into a different kind of artistry – crafting bento lunches for my children. Just as I carefully consider user experiences in my design work, I bring the same level of care to crafting nourishing meals that are not only visually appealing but also cater to my kids' individual tastes and nutritional needs. This wholesome blend of design and culinary artistry allows me to express my creativity in diverse ways, ensuring that every aspect of my life reflects my dedication to creating meaningful and delightful experiences.
                 </p>
             </div>
         </div>
     </section>
 </body>
-<div id="rectangle">
-</div>
 <footer>
-    <nav class="footer-navigation"> 
-        <ul class="footer-list">
-            <li class="footer-item">About</li>
-            <li>Skills</li>
-            <li>Work</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
-    <div class="copyright">
-    <p>&#169;&nbsp;Joliot Palmes</p>
+    <div id="rectangle">
     </div>
-        <h3>LinkedIn</h3>
-</footer>
+    <div class="footer">
+        <div class="left-column4">
+            <img src="Images/Coffee.png" alt="coffee" alt="img1" width="600px" height="400px">
+        </div>
+        <div class="right-column4">
+            <div class="work-heading">
+                <h1>I'd love to hear from you!</h1>
+            </div>
+            <div class="form-row1">
+                <h3>Email:</h3>
+                <input id="contact-form-email" class="form-input" type="email" name="email" required>
+              </div>
+              <div class="form-row2">
+                <h3>Message:</h3>
+                <textarea id="contact-form-message" class="form-input" name="message" required></textarea>
+              </div>
+              <button type="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+        <div class="copyright">
+        <p>&#169;&nbsp;2023 Portfolio - Joliot Palmes</p>
+        </div>
+    
+    <script src="JS/index.js"></script>
+    </html>
 </html>
