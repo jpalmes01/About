@@ -171,31 +171,27 @@ skills {
     text-align: left;
     font-family: 'Glacial Indifference', sans-serif;
     src: url(/Resources/GlacialIndifference-Regular.woff);
-    padding-left: 20px;
+    padding-left: 100px;
     
     }
     .toolslist {
-        display: grid;
+        display: flex;
+        align-items: center;
         flex-direction: column; 
         list-style-type: none;
         background-color: #F6CBC2;
-        border: 15px ridge #FFC6AC;
         font-family: 'Glacial Indifference', sans-serif;
-        font-weight: bold;
         font-size: 24px;
-        padding: 20px;
-        margin-bottom: 50px;
-        
+        margin-left: 120px;
         height: 100%;
-        width: 100%;
+        width: calc(100% - 280px);
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         
     }
     
     .toolslist li {
-        margin-bottom: 20px; 
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
 /* footer */
