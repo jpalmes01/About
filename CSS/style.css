@@ -30,6 +30,74 @@ a {
     text-decoration: none;
     list-style-type: none;
 }
+/* hover code */
+.inline-block ul li a {
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    -webkit-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    margin-bottom: 10px;
+  }
+  #resume-link:hover {
+    color: #DE7875;
+  }
+  
+  #contact-link:hover {
+    color: #DE7875;
+  }
+  .special-style > a {
+    color:#DE7875 !important;
+    font-style: bold !important;
+  }
+  .inline-block ul li > ul,
+  .special-style ul li > ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    list-style: none;
+  }
+  
+  .special-style ul {
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    font-style: bold;
+    list-style-type: none;
+  }
+  
+  .inline-block ul li > ul li {
+    float: none;
+    margin: 0;
+   
+  }
+  
+  .inline-block ul li > ul li a {
+    display: block;
+   
+  }
+  
+  .inline-block ul li > ul li a:hover,
+  .inline-block ul li:hover a,
+  .nav ul li.active a {
+    background: white;
+    
+  }
+  
+  .inline-block ul li.active {
+    pointer-events: none;
+    
+  }
+  ul li a {
+    color: black;
+  }
+  
+  ul li a:hover {
+    color: #DE7875;
+    font-style: bold;
+  }
 h1 {
     font-family: 'Lusitana', sans-serif;
     font-size: 44px;
